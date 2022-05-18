@@ -16,24 +16,24 @@ function draw()
 
   if (keyIsDown(LEFT_ARROW)) 
   {
-    background("blue");
+    background("DarkCyan");
     
   }
  
     if (keyIsDown(UP_ARROW)) 
   {
-    background("yellow");
+    background("Aquamarine");
    
   }
 
   if (keyIsDown(DOWN_ARROW)) 
   {
-    background("green");
+    background("CadetBlue");
   }
 
  if (keyIsDown(RIGHT_ARROW))
  {
-   background("red");
+   background("CornflowerBlue");
  }
   
   drawSprites();
